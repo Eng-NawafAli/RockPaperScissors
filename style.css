@@ -1,0 +1,27 @@
+body{
+    background-color:darkgrey
+}
+.container{
+    font-size: 34px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 15rem;
+    padding: 10rem;
+    grid-template-columns:repeat(2,1fr);
+}
+#outputUser{
+    grid-column:span 1;
+    padding: 10px;
+    font-weight: 600;
+}
+#outputComputer{
+    font-weight: 600;
+    padding: 10px;
+    grid-column: span 1;
+}
+#bord{
+    padding: 5rem;
+    font-weight: 500;
+    grid-column: span 2;
+}
